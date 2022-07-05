@@ -1,0 +1,17 @@
+.nav {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%) 
+  }
+  .nav div{
+    cursor: pointer;    
+  }
+  .nav div i{
+    color: #fff;
+    font-size: 3em;
+  }

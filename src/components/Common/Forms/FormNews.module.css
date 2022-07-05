@@ -1,0 +1,13 @@
+.form{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 40%;
+}
+.form input{
+    width: 100%;
+}
+.form span{
+    position: absolute;
+    top: 50px;
+}

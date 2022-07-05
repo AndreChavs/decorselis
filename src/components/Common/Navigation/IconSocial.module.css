@@ -1,0 +1,25 @@
+.icones{
+    display: flex;
+}
+.icon{
+    margin-left: 10px;    
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icon:first-child{
+    margin-left: 0px;   
+}
+.icon a{
+    display: block;
+}
+
+@media (max-width: 999px){
+    .icon{
+        margin: 0;
+    }
+}

@@ -1,0 +1,24 @@
+.li{
+    cursor: pointer;
+}
+.a{
+    cursor: pointer;
+    margin-right: 5px;
+}
+.span{
+    color: #b9aa7d;
+}
+.span i{
+    transform: rotate(-90deg);
+    transition: .3s;
+}
+.span .active{
+    transform: rotate(0deg);
+}
+.ul{
+    position: absolute;
+    background: #333;
+    display: flex;
+    flex-direction: column;
+    padding-inline-start: 0px;
+}

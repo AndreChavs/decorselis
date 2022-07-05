@@ -1,0 +1,8 @@
+.navbar{    
+    height: 100px;
+    transition: .5s ease-in;
+}
+.navbarScroll{
+    height: 90px;
+    transition: .5s ease-in;
+}

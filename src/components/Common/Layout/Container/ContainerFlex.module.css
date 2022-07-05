@@ -1,0 +1,15 @@
+.containerFlex{
+    min-height: 1px;
+    max-width: 1200px;
+    margin: 20px auto;
+    display: flex;    
+}
+@media screen and (min-width: 960px) and (max-width: 1199px){
+    .containerFlex{max-width: 960px;}
+}
+@media screen and (min-width: 768px) and (max-width: 959px){
+    .containerFlex{max-width: 768px;}
+}
+@media screen and (max-width: 767px){
+    .containerFlex{max-width: 480px;}
+}

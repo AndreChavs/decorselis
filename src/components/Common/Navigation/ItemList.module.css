@@ -1,0 +1,23 @@
+.itemList{
+    margin: 0em 1em;
+}
+.itemList:last-child{
+    margin-right: 0;
+}
+
+.itemList a{
+    display: block;
+    padding: 15px 22px;   
+}
+
+@media (max-width: 999px){
+    .itemList{
+        margin: 1em;
+    }
+    .itemList:last-child{
+        margin-right: 1em;
+    }
+    .itemList:nth-child(2){
+        margin-left: 1em;
+    }
+}

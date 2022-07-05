@@ -1,0 +1,44 @@
+footer{
+    margin-top: 5em;
+}
+.footer-sup p{
+    font-size: 20px;
+    color: #5E5E5E;
+    font-weight: 300;
+}
+
+.footer-sub{
+    border-top: 3px solid #ADCADC;
+    align-items: center;
+    padding-top: 30px;
+}
+.footer-sub ul{
+    display: flex;
+    margin-block-start: 0em;
+    margin-block-end: 0em;    
+    padding-inline-start: 0px;
+}
+.footer-sub ul li{
+    width: 50px;
+    height: 50px;
+}
+.footer-sub ul li a i{
+    color: #fff;
+    font-size: 20px;
+}
+.footer-sub div{
+    display: flex;
+    flex-direction: column-reverse;
+}
+footer .title-footer{
+    font-size: 13px;
+    font-weight: 300;
+    color: #5E5E5E;
+}
+footer address{
+    font-size: 20px;
+    font-weight: normal;
+    font-style: normal;
+    color: #5E5E5E;
+
+}
