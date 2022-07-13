@@ -5,7 +5,9 @@ import styles from './ContainerFlex.module.css'
 
 const ContainerFlex = ({children, className, style}) => {
     const {containerFlex} = styles
-    const styleContainer = [containerFlex, className]    
+    const styleContainer = [containerFlex, className]
+    console.log(styleContainer.join(' '))    
+    console.log(styleContainer)    
     return <div className={styleContainer.join(' ')} style={style}>{children}</div>  
 }
 
